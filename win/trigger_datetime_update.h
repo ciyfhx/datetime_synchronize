@@ -1,0 +1,13 @@
+
+#ifndef DATETIME_SYNCHRONIZE_TRIGGER_DATETIME_UPDATE_H
+#define DATETIME_SYNCHRONIZE_TRIGGER_DATETIME_UPDATE_H
+
+//C libraries
+#include <cstdio>
+
+//Windows API
+#include <windows.h>
+
+#define TRIGGER_UPDATE_COMMAND "w32tm /resync /nowait"
+
+#endif //DATETIME_SYNCHRONIZE_TRIGGER_DATETIME_UPDATE_H
